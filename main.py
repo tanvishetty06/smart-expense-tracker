@@ -10,7 +10,8 @@ while True:
     amount=float(input("Enter amount:"))
     category=input("Enter category:")
     transaction_type=input("Credit or Debit:")
-    transaction={"amount":amount,"category":category,"type":transaction_type}
+    date=input("Enter date (DD/MM/YYYY):")
+    transaction={"amount":amount,"category":category,"type":transaction_type,"date":date}
     expensesappend(transaction)
     print("Transaction added successfully!")
   elif choice==2:
