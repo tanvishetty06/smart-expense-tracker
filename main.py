@@ -6,7 +6,7 @@ file = "expenses.csv"
 if os.path.exists(file):
   df = pd.read_csv(file)
 else:
-  df = pd.DataFrame(columns=["Type", "Category", "Amount"]
+  df = pd.DataFrame(columns=["Type", "Category", "Amount"])
                       
 expense_type = st.selectbox("Type", ["Income", "Expense"])
 
