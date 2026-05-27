@@ -1,39 +1,21 @@
 # Smart Expense Tracker
 
-## Project Overview
-Smart Expense Tracker is a Python-based financial management system that helps users track and analyze their daily transactions. The project allows users to manage income and expenses, calculate balances, and analyze spending categories.
+A simple expense tracking web application built using Streamlit and Pandas.
 
 ## Features
-- Add income and expense transactions
+- Add income and expenses
 - View transaction history
-- Calculate total balance
-- Analyze highest spending category
-- Analyze lowest spending category
-- Store transaction dates
+- Expense tracking
+- CSV data storage
+- Simple and interactive UI
 
 ## Technologies Used
 - Python
-- Lists
-- Dictionaries
-- Loops and Conditions
-- Functions
+- Streamlit
+- Pandas
 
-## Project Objective
-The main objective of this project is to help users understand their spending habits and manage their finances efficiently.
+## How to Run
 
-## Future Enhancements
-- Monthly financial reports
-- Graphical analysis
-- Budget alerts
-- File handling/database storage
-- GUI using Tkinter
-
-## Output Example
-Total Credit: Rs.25000  
-Total Debit: Rs.18000  
-Remaining Balance: Rs.7000  
-Highest Spending Category: Shopping  
-Lowest Spending Category: Education
-
-## Author
-Tanvi Shetty
+```bash
+pip install -r requirements.txt
+streamlit run main.py
