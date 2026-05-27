@@ -1,0 +1,5 @@
+Food,250
+Travel,120
+Shopping,540
+Movies,300
+Snacks,90
